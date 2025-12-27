@@ -3,9 +3,9 @@ on:
   push:
   issues: 
     types: 
-      - opened
+    - opened
 jobs:
-  hola-mundo:
+  hola-mundo3:
     runs-on: ubuntu-latest
     steps:
     - name: Hola Alberto3
