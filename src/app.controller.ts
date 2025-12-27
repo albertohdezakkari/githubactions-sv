@@ -4,8 +4,10 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
   @Get()
   getHello(): string {
-    const saludo = 'Hola NestJS'; // ❌ variable no usada
+    // const saludo = 'Hola NestJS'; // ❌ variable no usada
+    const saludo = 'Hola NestJS';
 
-    return 'Hola mundo';
+    // return 'Hola mundo';
+    return saludo;
   }
 }
